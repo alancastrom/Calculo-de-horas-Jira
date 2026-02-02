@@ -1,0 +1,6 @@
+Tipo de item,Chave da item,ID da item,Resumo,Responsável,ID do responsável,Relator,ID do relator,Prioridade,Status,Resolução,Criado,Atualizado(a),Data limite,Tempo gasto
+Tarefa,TASK-1,10001,Implementar login,João,joao,Admin,admin,Alta,Fechada,Resolvida,2023-01-01,2023-01-02,,3600
+Bug,BUG-2,10002,Corrigir erro,Maria,maria,João,joao,Média,Aberta,,2023-01-03,2023-01-04,,7200
+Tarefa,TASK-3,10003,Adicionar botão,Ana,ana,Admin,admin,Baixa,Fechada,Resolvida,2023-01-05,2023-01-06,,1800
+Bug,BUG-4,10004,Fix crash,João,joao,Maria,maria,Alta,Fechada,Resolvida,2023-01-07,2023-01-08,,5400
+Tarefa,TASK-5,10005,Update UI,Maria,maria,Ana,ana,Média,Fechada,Resolvida,2023-01-09,2023-01-10,,2700

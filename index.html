@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Horas Jira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo de Horas a partir da Planilha Jira</h1>
+        <p>Faça o upload da planilha CSV exportada do Jira para calcular o total de horas gastas por tipo de atividade e responsável.</p>
+        <input type="file" id="fileInput" accept=".csv">
+        <button id="calculateBtn">Calcular Horas</button>
+        <button id="exportBtn" style="display:none;">Exportar CSV</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
