@@ -10,6 +10,13 @@
     <div class="container">
         <h1>Cálculo de Horas a partir da Planilha Jira</h1>
         <p>Faça o upload da planilha CSV exportada do Jira para calcular o total de horas gastas por tipo de atividade e responsável.</p>
+        <button id="exampleBtn">Ver Exemplo de Exportação</button>
+        <div id="examples" style="display:none;">
+            <p>Exemplo de como aplicar filtros no Jira:</p>
+            <img src="filtros.png" alt="Filtros no Jira" style="max-width:100%; height:auto;">
+            <p>Exemplo de como exportar no Jira:</p>
+            <img src="exportar.png" alt="Exportar no Jira" style="max-width:100%; height:auto;">
+        </div>
         <input type="file" id="fileInput" accept=".csv">
         <button id="calculateBtn">Calcular Horas</button>
         <button id="exportBtn" style="display:none;">Exportar CSV</button>

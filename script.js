@@ -93,3 +93,8 @@ document.getElementById('exportBtn').addEventListener('click', function() {
     link.click();
     document.body.removeChild(link);
 });
+
+document.getElementById('exampleBtn').addEventListener('click', function() {
+    const examples = document.getElementById('examples');
+    examples.style.display = examples.style.display === 'none' ? 'block' : 'none';
+});
